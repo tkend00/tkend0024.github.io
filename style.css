@@ -1,0 +1,87 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+h1 {
+    font-family: "Nerko One", Arial;
+    margin: 0px;
+    padding: 8px;
+}
+
+ul {
+    margin: 0px;
+}
+body > header {
+    background-color: aqua;
+    color: white;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 15%;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px;
+    margin: 16px;
+}
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+body > footer {
+    background-color: aqua;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+#main-content > article {
+    width: 70%;
+    align-items: center;
+}
